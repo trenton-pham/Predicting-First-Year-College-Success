@@ -11,7 +11,7 @@ To what extent do pre-college academic indicators predict first-year college aca
 ## Dataset Overview
 
 - **Source**: HSLS: 09 (High School Longitudinal Study 2009-2016), available at https://nces.ed.gov/surveys/hsls09/
-- **Sample Size**: 23,503 students (after data cleaning: ~13,000 complete cases)
+- **Sample Size**: 23,503 students (after data cleaning: ~2271 complete cases)
 - **Time Period**: 2009-2016 longitudinal tracking from secondary education through college
 - **Key Variables Selected**: 25 variables after feature selection process across academic, school context, and family context dimensions
 
@@ -56,7 +56,7 @@ For details on our variable selection methodology, see `variable_selection.ipynb
 
 ### 1. High School GPA Performance Trajectories
 
-**Distribution Patterns**: The distribution of cumulative high school GPA shows pronounced right-skew, with many students achieving high GPAs (3.5-4.0). In contrast, freshman GPA shows similar right-skew but with a notable spike at zero, hypothesized to represent student attrition or academic failure. This indicates that college represents a meaningful performance recalibration for many students.
+**Distribution Patterns**: The distribution of cumulative high school GPA shows pronounced right-skew, with many students achieving high GPAs (3.5-4.0). In contrast, freshman GPA shows similar right-skew, with a small spike at zero, hypothesized to represent student attrition or academic failure. This indicates that college represents a meaningful performance recalibration for many students.
 
 **Comparison Insight**: The high-concentration of 4.0 GPAs in high school dramatically decreases in college, suggesting either: (1) higher college course difficulty, (2) different grading standards, or (3) self-selection effects where only highly-prepared students enroll.
 
